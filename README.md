@@ -13,7 +13,7 @@ L'utilisateur a pour objectif de trouver ce nombre en respectant une limite de 1
 Génération d'un nombre aléatoire entre 1 et 100.  
 Saisie utilisateur sécurisée via la console.   
 Retour immédiat sur la tentative (plus grand ou plus petit).  
-Limitation stricte à 10 essais.  
+Limitation stricte à 10 essais .  
 Annonce claire du résultat (victoire avec score ou défaite avec révélation du nombre).
 
 ## Pré-requis
