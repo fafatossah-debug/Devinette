@@ -13,5 +13,14 @@ public class Devinette {
 
         System.out.println("Bienvenue dans les devinette! J'ai choisi un nombre aléatoire entre 1 et 100.");
         System.out.println("Tu as 10 essais pour le Deviner.");
+
+        // 2. Création d'une boucle
+        while (essais < tentativesMax) {
+            essais++;
+            System.out.print("Essai n°" + essais + " - Entre ta devinette : ");
+
+        }
+
+
     }
 }
