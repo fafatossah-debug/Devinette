@@ -18,24 +18,26 @@ public class Devinette {
         while (essais < tentativesMax) {
             essais++;
             System.out.print("Essai n°" + essais + " - Devine le nombre secret, entre le !! : ");
+            //  Lecture de l'entrée de l'utilisateur (Le joueur)
 
-        }
-        //  Lecture de l'entrée de l'utilisateur (Le joueur)
+            int devinette = scanner.nextInt();
 
-        int devinette = scanner.nextInt();
+            //  Comparaison du nombre secret et celui du joueur
 
-        //  Comparaison du nombre secret et celui du joueur
+            if (devinette == nombreSecret) {
 
-        if (devinette == nombreSecret) {
-            // Cas de victoire
+                // Cas de victoire
+                Gagner = true;
+                break;
 
-            Gagner = true;
+                //Les indices
+            } else if (devinette < nombreSecret) {
+                System.out.println("C'est inferieur au nombre secret !");
+            } else {
+                System.out.println("C'est supérieur au nombre secret!");
+            }
 
-            //Les indices
-        } else if (devinette < nombreSecret) {
-            System.out.println("C'est inferieur au nombre secret !");
-        } else {
-            System.out.println("C'est supérieur au nombre secret!");
+
         }
 
     // Résultat en cas de victoire du joueur
